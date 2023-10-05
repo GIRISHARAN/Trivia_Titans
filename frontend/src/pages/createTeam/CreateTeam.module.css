@@ -1,0 +1,63 @@
+.container {
+    width: 90%;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .inlineRow {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .label {
+    margin-right: 8px;
+    color: #333;
+  }
+  
+  .input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .button {
+    padding: 8px 12px;
+    margin: 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: #1769aa;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #1769aa;
+  }
+  
+  .membersContainer {
+    margin-bottom: 16px;
+  }
+  
+  .memberInput {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .submitButton {
+    margin-top: 16px;
+  }
+  
